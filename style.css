@@ -1,0 +1,59 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://blog.paessler.com/hubfs/2020/visuals/header/keep-track-of-the-weather-with-prtg-network-monitor.jpg') no-repeat center center/cover;
+    margin: 0;
+}
+
+#weatherApp {
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity: 80%;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color:#00796b;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    font-size: 20px;
+    font-style:italic;
+    width: 100%;
+}
+
+button {
+    background-color: #00796b;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+#weather img {
+    width: 80px;
+    margin-top: 10px;
+}
+
+#error {
+    color: red;
+    margin-top: 10px;
+}
